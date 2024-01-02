@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS USER (
 
 
 
-insert into USER (firstname, lastname, email, username, password, regdate) values ('GANGADHAR', 'MATTA', 'gangadharm877@gmail.com', 'gang', 'gang123',"12-1-23");
+insert into USER (firstname, lastname, email, username, password, regdate) values ('aslaan', 'aslaan', 'aslaan@gmail.com', 'aslaan', 'aslaan',"1-1-24");
 -- insert into USER (USER_ID, NAME, FIRST_NAME, LAST_NAME, EMAIL,username, password) values (2, 'Earl Hunt', '386-(811)703-8564', 'Julia Shaw', 'jshaw1', 'ro0AZAr0');
 -- insert into USER (USER_ID, NAME, FIRST_NAME, LAST_NAME, EMAIL,username, password) values (3, 'Fred Mitchell', '63-(138)801-1365', 'Lillian Murphy', 'lmurphy2', 'h93777GZ3Qos');
 -- insert into USER (USER_ID, NAME, FIRST_NAME, LAST_NAME, EMAIL,username, password) values (4, 'Akash', '81-(509)931-3746', 'AJAY', 'Akash3', 'OGlguKa');
