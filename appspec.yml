@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /opt/myapp
+    overwrite: true
+fileExistsBehavior: OVERWRITE
+hooks:
+
+
+  AfterInstall:
+    - location: scripts/build_docker_image.sh
+    - location: scripts/start_docker_container.sh
+      timeout: 300
+      runas: root
