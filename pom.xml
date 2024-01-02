@@ -11,7 +11,9 @@
   <name>LoginWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
+
   <dependencies>
+    <!-- Your existing dependencies -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
@@ -25,9 +27,11 @@
     </dependency>
   </dependencies>
 
+
   <build>
     <finalName>LoginWebApp</finalName>
     <plugins>
+      <!-- Your existing maven-war-plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
@@ -35,5 +39,8 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+  <sonar.organization>recruitcrmintern</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 </project>
-
