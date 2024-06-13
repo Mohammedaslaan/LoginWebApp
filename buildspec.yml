@@ -5,6 +5,8 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn clean install
+      # this should reflect in another branch
+      
 
 artifacts:
   files:
